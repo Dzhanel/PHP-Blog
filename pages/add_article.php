@@ -37,4 +37,6 @@ if (isset($_POST['add_btn'])) {
     }
 }
 
+echo $error;
+
 ?>
