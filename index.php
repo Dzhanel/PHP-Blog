@@ -19,7 +19,7 @@
     <div class=\"form\">
     <form action=\"pages/login.php\" method=\"POST\">
     <p>
-    <label for=\"username\">Username</label><br>
+    <label for=\"username\">Email</label><br>
     <input id=\"username\" type=\"text\" name=\"username\" placeholder=\"Email goes here\">
     <br>
     </p>
