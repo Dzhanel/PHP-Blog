@@ -1,0 +1,33 @@
+.error {
+    color:  #FF5733;
+    font-size: 20px;
+}
+
+.valid {
+    color: #66FCf1;
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+}
+
+:-ms-input-placeholder {  
+    text-align: center; 
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid #45a29e;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    color: #808080;
+    cursor: pointer;
+    margin: 5px;
+}
+

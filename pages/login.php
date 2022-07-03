@@ -5,7 +5,7 @@ if (isset($_POST['login'])) {
     
     $_SESSION['login_error'] = 'false';
     if (empty($_POST['username']) || empty($_POST['password'])) {
-        $_SESSION['login_error'] = "Password or username can't be empty!";
+        $_SESSION['login_error'] = "<div class='error'>Password or username can't be empty! ✘</div>";
         header('Location:../index.php');
         exit;
     }
@@ -30,7 +30,7 @@ if (isset($_POST['login'])) {
         $_SESSION['perm'] = $info['perm_us'];
         $_SESSION["id"] = $info["id_us"];
     } else {
-        $_SESSION['login_error'] = "Wrong username or password. Please try again!";
+        $_SESSION['login_error'] = "<div class='error'>Wrong username or password. Please try again! ✘</div>";
     }
     
     header ('Location:../index.php');
