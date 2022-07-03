@@ -30,6 +30,7 @@ if (isset($_POST['add_btn'])) {
         $result = mysqli_query($conn, $sql);
         if ($result) {
             $error = '<div class="valid">Article added ✔</div>';
+            header("Location:../index.php");
         } else {
             $error = '<div class="error">Error adding the article ✘</div>';
         }
