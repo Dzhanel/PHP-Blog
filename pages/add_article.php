@@ -26,7 +26,7 @@ if (isset($_POST['add_btn'])) {
     } else if (strlen($text) <= 0) {
         $error = '<div class="error">Article text cannot be empty! ✘</div>';
     } else {
-        $sql = "INSERT INTO articles VALUES (null, '$title', '$text', now(), $_SESSION[id])";
+        $sql = "INSERT INTO articles VALUES (null, '$title', '$text', now(), '$_SESSION[id]')";
         $result = mysqli_query($conn, $sql);
         if ($result) {
             $error = '<div class="valid">Article added ✔</div>';

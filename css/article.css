@@ -27,7 +27,7 @@
 .article .text {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     background-color: black;
-    border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     display: flex;
     flex-flow: column;
