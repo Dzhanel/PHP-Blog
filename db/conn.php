@@ -9,4 +9,10 @@
         exit;
     }
     
+    function change_date($date) {
+        $new_date = explode('-', explode(' ', $date)[0]);
+        $time = explode(':', explode(' ', $date)[1]);
+        return $time[0].":".$time[1]." ".implode('/', array_reverse($new_date));
+    }
+
 ?>

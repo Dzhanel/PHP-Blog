@@ -21,6 +21,7 @@
 }
 
 .btn {
+    font-family: "Lucida Console", "Courier New", monospace;
     background-color: transparent;
     border: 2px solid #45a29e;
     border-radius: 4px;
@@ -31,3 +32,14 @@
     margin: 5px;
 }
 
+.options {
+    margin-top: -20px;
+}
+
+.article .date {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    color: #808080;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
